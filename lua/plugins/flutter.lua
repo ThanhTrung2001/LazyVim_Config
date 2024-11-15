@@ -2,11 +2,13 @@
 return {
   -- Plugin hỗ trợ Flutter
   { "akinsho/flutter-tools.nvim", requires = { "nvim-lua/plenary.nvim", "neovim/nvim-lspconfig" } },
-  { "dart-lang/dart-vim-plugin" },  -- Plugin hỗ trợ Dart
-  { "nvim-telescope/telescope.nvim", requires = { "nvim-lua/plenary.nvim" } },  -- Plugin tìm kiếm
+  { "dart-lang/dart-vim-plugin" }, -- Plugin hỗ trợ DartPlug 'thosakwe/vim-flutter'
+  {"natebosch/vim-lsc"},
+  {"natebosch/vim-lsc-dart"},
+  { "nvim-telescope/telescope.nvim", requires = { "nvim-lua/plenary.nvim" } }, -- Plugin tìm kiếm
   -- { "williamboman/mason.nvim", opts = { ensure_installed = { "dartls", "flutter" } } },  -- Tự động cài LSP và các công cụ hỗ trợ Flutter
 
-  -- -- LSP cho Flutter
+  -- LSP cho Flutter
   -- {
   --   "neovim/nvim-lspconfig",
   --   config = function()
@@ -14,5 +16,5 @@ return {
   --     require('lspconfig').dartls.setup{}
   --   end
   -- },
-
 }
+

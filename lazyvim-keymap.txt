@@ -30,3 +30,4 @@ NVIM: https://www.komaster.dev/post/neovim-tong-hop-cheetsheet
 	O	Insert a new line above the current line and enter Insert mode
 	:m+-number Moving Line
 	:q quit
+	ctrl ]  Definition
