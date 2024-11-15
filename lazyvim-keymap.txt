@@ -1,0 +1,32 @@
+NVIM: https://www.komaster.dev/post/neovim-tong-hop-cheetsheet
+
+
+1. Moving : 
+	h - Right
+	j - Down
+	k - Up
+	l - Left
+2. Tree explorer
+	<leader> is space
+	space + e - Open tree folder
+	ctrl + h/l - Moving between tree folder and file
+	shift + h/l -> H/L - Moving between buffer
+	space + bd - Close buffer
+	a - Add file,folder
+	d - Delete file/folder
+3. Window Split
+	ctrl + w - Window manage - separate, split, ...
+	ctrl + w + h/j/k/l - Split by arrow
+	ctrl + wq - Close window
+	ctrl + w + h/j/k/l/w - Switch Window
+	space + f + t - terminal
+        space + xx - troubleshoot 
+4. Write mode
+	i	Enter Insert mode before the cursor
+	a	Enter Insert mode after the cursor
+	I	Enter Insert mode at beginning of the line
+	A	Enter Insert mode at the end of the line
+	o	Insert a new line below the current line and enter Insert mode
+	O	Insert a new line above the current line and enter Insert mode
+	:m+-number Moving Line
+	:q quit
