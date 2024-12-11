@@ -37,4 +37,7 @@ https://www.lazyvim.org/keymaps
 	K 	 - Hover
 	g+D	 - Definition of code
 	Space+xq - Quick fix
+	]e	Next Error
+	[e	Prev Error
+	
 
