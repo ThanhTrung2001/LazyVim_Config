@@ -41,3 +41,6 @@ https://www.lazyvim.org/keymaps
 	[e	Prev Error
 	
 
+6. Special
+:Mason
+:MasonUpdate
