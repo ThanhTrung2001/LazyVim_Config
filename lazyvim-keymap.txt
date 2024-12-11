@@ -1,5 +1,5 @@
 NVIM: https://www.komaster.dev/post/neovim-tong-hop-cheetsheet
-
+https://www.lazyvim.org/keymaps
 
 1. Moving : 
 	h - Right
@@ -31,3 +31,10 @@ NVIM: https://www.komaster.dev/post/neovim-tong-hop-cheetsheet
 	:m+-number Moving Line
 	:q quit
 	ctrl ]  Definition
+	ctrl+s  Save file 
+5. Action
+	ctrl+ca  - Code action
+	K 	 - Hover
+	g+D	 - Definition of code
+	Space+xq - Quick fix
+
