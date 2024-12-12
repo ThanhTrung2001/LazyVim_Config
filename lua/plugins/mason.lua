@@ -1,4 +1,6 @@
 return {
+  {"williamboman/mason.nvim"},
+  {
   "jay-babu/mason-nvim-dap.nvim",
   dependencies = "mason.nvim",
   cmd = { "DapInstall", "DapUninstall" },
@@ -15,8 +17,14 @@ return {
     -- online, please don't ask me how to install them :)
     ensure_installed = {
       -- Update this to ensure that you have the debuggers for the langs you want
+      "csharpier",
+      "netcoredbg"
     },
   },
   -- mason-nvim-dap is loaded when nvim-dap loads
-  config = function() end,
+  config = function()
+    require("mason").setup()
+    require("mason-nvim-dap").setup()
+  end,
+}
 }
